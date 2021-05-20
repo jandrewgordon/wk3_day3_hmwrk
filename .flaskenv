@@ -1,0 +1,2 @@
+FLASK_APP=shopstock.py
+FLASK_ENV=development

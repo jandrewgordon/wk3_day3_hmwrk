@@ -1,0 +1,14 @@
+<html>
+    <link rel="stylesheet" href="{{ url_for('static', filename='order.css') }}">
+    <head>
+        <title>{{title}} - Online Shop</title>
+    </head>
+    <body>
+        <h1>{{beer.name}}:</h1>
+        <div>
+            <p>
+                <b>{{beer.name}}</b> - <i>{{beer.brand}}</i>: £{{beer.price}}
+            </p>
+        </div>
+    </body>
+</html>
